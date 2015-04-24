@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Cadastro do Aluno - Sitemas de Informação 1</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body style="padding:30px;">
+  
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<span class="sr-only">Exibir barra de navegação</span>
+		  </button>
+		</div>
+		
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+			<li><a href="index.html">Início <span class="sr-only"></span></a></li>
+			<li class="active"><a href="#">Me convenci</a></li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+  
+
+  
+	<h1>Cadastro do Aluno - Sitemas de Informação 1</h1>
+	<form> <fieldset > <legend> Dados do Aluno </legend>
+
+	   <p><label for="cNome">Nome Completo:</label>  <input type="text"  id="cNome"  maxlength="30" /> </p>
+
+	   <p><label for="Matrícula">Matrícula:</label> <input type="text" id="Matrícula"  maxlength="50" /> </p>
+
+	   <p><label for="cEmail">Email:</label> <input type="email"  id="cEmail"  maxlength="45" /></p>
+
+	   <p><label for="cSenha">Senha:</label> <input type="password"  id="cSenha"  maxlength="8" /></p>
+
+		<p>Sexo: <br>
+			Masculino <input type="radio" name="sex" id="cMasc"/> 
+			Feminino <input type="radio" name="sex" id="cFem" />
+		</p><br>
+	   <p><label for="tData"> Data de Nascimento:</label> <input type="date" name="cData" id="tData"/></p>
+	 
+	   <button type="submit" formaction="obrigado.html">Realizar Cadastro</button>
+
+	</fieldset> </form>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
